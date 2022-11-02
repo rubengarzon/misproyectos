@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mis Proyectos | Rubén Garzón</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <script src="./script/index.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>Rubén Garzón</h1>
+    <h2>Mis proyectos</h2>
+  </header>
+  <nav>
+    <span>Filtrar por Tecnología</span>
+    <button onclick="showAll()" class="btn">Todos</button>
+    <button class="btn" id="angular" onclick="filterAngular()">Angular / Ionic</button>
+    <button class="btn">React</button>
+    <button class="btn">Node js</button>
+  </nav>
+  <section>
+    <div class="card" id="1">
+      <h3 class="card__title">Noticias App</h3>
+      <div class="language">
+        <span>Angular</span>
+        <span>Ionic</span>
+      </div>
+      <img src="./assets/capturanoticiasapp.PNG" alt="" width="50">
+      <p class="card__description">Web App que muestra al cliente noticias divididas en categorias, puedes añadir
+        noticias a favoritos, compartir la noticia y ver la noticia completa.</p>
+      <button class="card__button" onclick="goToGithub(1)">Ver más</button>
+    </div>
+    <div class="card" id="2">
+      <h3 class="card__title">Peliculas App</h3>
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/2048px-Angular_full_color_logo.svg.png"
+        alt="" width="50">
+      <p class="card__description">Web App que muestra información sobre peliculas y series.</p>
+      <button class="card__button" onclick="goToGithub(2)">Ver más</button>
+    </div>
+    <div class="card" id="3">
+      <h3 class="card__title">Proyecto 1</h3>
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/2048px-Angular_full_color_logo.svg.png"
+        alt="" width="50">
+      <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+      <button class="card__button">Ver más</button>
+    </div>
+    <div class="card" id="4">
+      <h3 class="card__title">Proyecto 1</h3>
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/2048px-Angular_full_color_logo.svg.png"
+        alt="" width="50">
+      <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+      <button class="card__button">Ver más</button>
+    </div>
+    <div class="card" id="5">
+      <h3 class="card__title">Proyecto 1</h3>
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/2048px-Angular_full_color_logo.svg.png"
+        alt="" width="50">
+      <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+      <button class="card__button">Ver más</button>
+    </div>
+    <div class="card" id="6">
+      <h3 class="card__title">Proyecto 1</h3>
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/2048px-Angular_full_color_logo.svg.png"
+        alt="" width="50">
+      <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+      <button class="card__button">Ver más</button>
+    </div>
+  </section>
+</body>
+
+</html>
